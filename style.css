@@ -1,14 +1,121 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    height: 10rem;
+    background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+height: 3rem;
+width: 3rem;
+background-color: black;
+margin: 1rem;
+}
+.input{
+    height: 3rem;
+    width: 5rem;
+    margin: 1rem;
+}
+.button{
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+   
+}
+aside{
+    display: flex;
+    height: 100vh;
+    background-color: aqua;
+    justify-content: center;
+    width: 10rem;
+}
+.circle{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    background-color: brown;
+    margin: 1rem;
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:768px) {
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.quadrati{
+    display: flex;
+   
+
+}
+.line1{
+    display: flex;
+}
+.quadrati5{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    margin: 1rem;
+}
+
+.menu{
+    
+   display: none;
+  
+    
+}
+.linee{
+    height: 2px;
+    width: 6px;
+    margin: 6px 0;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1100px) {
+aside{
+    display: none;
+}
+}
+@media screen and (max-width:700px)  {
+    .quadrati{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+    }
+    .box{
+        display: none;
+        
+    }
+
 }
